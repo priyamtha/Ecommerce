@@ -1,30 +1,40 @@
-**Milestone 1**
+## Milestone-1
 
-        **Ecommerce**
-       
-1. Navigating Folders
+- got overview of the e-commerce project Tech Stack.
+- MongoDB,nodeJS,expressJS,reactJS
 
- navigated through the folders to arrive at the proper place on  computer where  wanted to start creating  project. This action is in regards to putting  work in a certain folder.
- 
-2. Creating Folders
- 
-   organized your project into distinct folders, such as one for the backend (server-side) and another for the frontend (user interface). This organizes  project and makes it simple to work on.
-   
-3. Initializing the Project
-   
-    began the configuration of  project by defining a special file that will keep track of key information about  project, such as its name, version, and the tools it will utilize. This file is akin to a "control center" for  project.
-4. Setting Up the Frontend
+## Milestone 2:
 
-   set up the frontend (the part of the app that users interact with) using a tool that quickly creates a basic structure for  project. This saves time and avoids starting from scratch.
-5. Adding Features to the Frontend
+- Worked on login Page.
+- Structure of react.
+- Using Tailwind css.
+- Used React-Dom
+## Milestone-3
+- Implemented Express on the backend
+- Used MongoDBAtlas to create a cluster
+- Used mongoose to connect MongoDb with the backend
+- Made some error-handling changes
 
-    introduced a library (React Router) to facilitate navigation through  app, such as transitioning between various pages. This is critical to ensure that  app is user-friendly.
-6. Opening the Project in an Editor
+## Milestone-4
 
-    opened the project in a text editor (such as VS Code) so that can now begin working on the actual code and developing  app.
-7. Initializing Version Control
+- Installed JSON token
+- Created the Multer file
+## Milestone-5
 
-     began monitoring changes in the project with a system known as Git. This allows  to store versions of the project so you can revert errors or observe what have altered over time.
-8. Linking to GitHub
-
-    linked  project to a remote repository (an online storage on GitHub) so that  would be able to save  work online and make it accessible to other people if necessary.
+- Created the SignUp page
+- Used Tailwind css
+## Milestone-6
+- Encrypt the Password:
+- Use bcrypt to hash the user's password during signup.
+- Save the hashed password in the database instead of plain text.
+- Store Complete User Data:
+- Save all the user's data (e.g., name, email, etc.) in the database while ensuring that the password remains encrypted.
+## Milestone-7
+- Login Endpoint
+- This endpoint accepts user credentials (email/username and password), retrieves the corresponding user from the database, and validates the password using bcrypt.
+- If the credentials are valid, it returns a JWT token for authentication.
+## Milestone 8 Steps
+- Create the Card Component:
+- Design a reusable card component with props for product details (e.g., name, image, price).
+- Design the Homepage Layout:
+- Set up a grid layout or flexbox for displaying multiple cards neatly.
